@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+#Tabbar{
+	ul{
+	display: flex;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 14px;
+	}
+	li{
+		flex:1;
+	}
+
+	a{
+		text-decoration:none;
+		color:rgb(128, 128, 128);
+		-webkit-tap-highlight-color:transparent;
+	}
+	.active{
+		color:black;
+	}
+}

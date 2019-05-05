@@ -1,0 +1,44 @@
+#Home{
+	.top{
+		height: 45px;
+		display: flex;
+		h3{
+			flex:1;
+			margin: 10px 0 10px 10px;
+		}
+		input{
+			flex:3;
+			height: 25px;
+			margin:10px 20px 10px 0;
+			border-radius: 20px;
+			border:none;
+			outline:none;
+			background: rgb(245, 245, 245)
+		}
+	}
+
+	ul{
+		display: flex;
+		height: 40px;
+		line-height: 40px;
+	}
+	li{
+		flex:1;
+		text-align: center;
+	}	
+	a{
+		color:black;
+		border:none;
+		text-decoration:none;
+		margin:0 25px 0 25px;
+		-webkit-tap-highlight-color:transparent;
+		color:rgb(128, 128, 128);
+	}
+	.active{
+		border-bottom: 2px solid black;
+		line-height: 40px;
+		height: 40px;
+		display: block;
+		color:black;
+	}
+}
